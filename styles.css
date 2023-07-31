@@ -16,11 +16,17 @@ justify-content: center;
 align-items: center;
 }
 
+.product-card img {
+border-top-right-radius: 7px;
+border-top-left-radius: 7px;
+}
+
 .product-card {
 background-color: hsl(0, 0%, 100%);
 max-width: 21.375rem;
 border-radius: 0.438rem;
 padding-bottom: 1.3rem;
+
 }
 
 .product-card p {
