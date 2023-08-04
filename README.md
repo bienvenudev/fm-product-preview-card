@@ -72,7 +72,7 @@ I also need to stop going overboard with things
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jwben1)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/jwben1)
 
 ## Acknowledgments
 
