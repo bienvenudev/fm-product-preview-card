@@ -17,38 +17,57 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main class="product-card">
-      <img
-        src="images/image-product-mobile.jpg"
-        alt="An image of Gabrielle Essence Eau De Parfum bottle"
-      />
-      <p class="product-sub">PERFUME</p>
-      <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
-      <p class="product-description">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
+    <main>
+      <article class="product">
+        <picture class="product__image">
+          <source
+            media="(min-width: 600px)"
+            srcset="images/image-product-desktop.jpg"
+          />
 
-      <div class="product-discount">$149.99</div>
-      <div class="product-price">$169.99</div>
+          <img
+            src="images/image-product-mobile.jpg"
+            alt="An image of Gabrielle Essence Eau De Parfum bottle"
+          />
+        </picture>
 
-      <button class="product-button">
-        <span class="button-icon">
-          <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
-              fill="#FFF"
-            />
-          </svg>
-        </span>
-        <span class="button-text">Add to Cart </span>
-      </button>
+        <div class="product__content">
+          <hgroup>
+            <p class="product__category">Perfurme</p>
+            <h1 class="product__name">Gabrielle Essence Eau De Parfum</h1>
+          </hgroup>
+
+          <p class="product__description">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+
+          <div class="flex-group">
+            <p class="product__price">
+              <span class="visually-hidden">Current Price:</span>
+              $149.99
+            </p>
+            <p class="product__original-price">
+              <span class="visually-hidden">Original Price:</span>
+              <s>$169.99</s>
+            </p>
+          </div>
+          <button class="button">
+            <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+                fill="#FFF"
+              />
+            </svg>
+            <span class="button-text"> Add to Cart </span>
+          </button>
+        </div>
+      </article>
     </main>
 
     <!-- 
