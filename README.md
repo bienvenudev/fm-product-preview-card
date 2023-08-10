@@ -22,11 +22,12 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
+![image](https://github.com/jwben1/fm-product-preview-card/assets/132217074/4d4fb165-bff1-4565-8984-e9f207d9806a)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://jwben1.github.io/fm-product-preview-card/)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-page-using-css-grid-and-media-query-n5f4fgR4uA)
+- Live Site URL: (https://jwben1.github.io/fm-product-preview-card/)
 
 ### Built with
 
@@ -71,7 +72,7 @@ I also need to stop going overboard with things
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jwben1)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/jwben1)
 
 ## Acknowledgments
 
