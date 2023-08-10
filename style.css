@@ -126,7 +126,7 @@
     justify-content: center;
     align-items: center;
   }
-  .button:is(hover, focus) {
+  .button:is(:hover, :focus) {
     background-color: var(--clr-dark);
   }
 
