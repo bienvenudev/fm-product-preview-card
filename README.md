@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/responsive-page-using-css-grid-and-media-query-n5f4fgR4uA)
-- Live Site URL: (https://jwben1.github.io/fm-product-preview-card/)
+- Live Site URL: (https://bienvenudev.github.io/fm-product-preview-card/)
 
 ### Built with
 
